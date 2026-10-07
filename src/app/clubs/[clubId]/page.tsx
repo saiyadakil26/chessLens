@@ -20,6 +20,8 @@ interface Props {
   params: Promise<{ clubId: string }>;
 }
 
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata({ params }: Props) {
   const { clubId } = await params;
   const club = await getClubDetails(clubId);
