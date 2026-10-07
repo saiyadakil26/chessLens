@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --background: #08090B;
+  --background: #09090b;
   --foreground: #fafafa;
-  --accent-gold: #E5B82E;
+  --accent-gold: #D4AF37;
   --accent-gold-hover: #b5952f;
   --muted: #27272a;
   --muted-foreground: #a1a1aa;
@@ -29,7 +29,7 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
   /* Premium subtle gradient background */
-  background-image: radial-gradient(circle at 50% 0%, #1c1c24 0%, #08090B 60%);
+  background-image: radial-gradient(circle at 50% 0%, #1c1c24 0%, #09090b 60%);
   background-attachment: fixed;
   min-height: 100vh;
 }
